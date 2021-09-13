@@ -1,0 +1,77 @@
+/* Common styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: all .3s cubic-bezier(.38, 1.15, .7, 1.12);
+}
+
+html {
+    font-size: 62.5%;
+    /* overflow-x: hidden;
+    scroll-behavior: smooth; */
+}
+
+body,
+html {
+    background-color: var(--background-color);
+    scroll-behavior: smooth;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+/* html::-webkit-scrollbar {
+    width: 1.3rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--green);
+}
+
+section {
+    min-height: 100vh;
+    padding: 0 7%;
+    padding-top: 9rem;
+} */
+
+section {
+    padding: 9%;
+}
+
+.section-heading {
+    font-size: 6em;
+    font-weight: 900;
+    color: var(--primary-color);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.5rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem #000;
+    margin-bottom: 3rem;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+body,
+html {
+    background-color: var(--background-color);
+    scroll-behavior: smooth;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* End of Common Styles */

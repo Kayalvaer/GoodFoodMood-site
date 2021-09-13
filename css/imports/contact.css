@@ -1,0 +1,105 @@
+.contact {
+    /* padding: 3rem; */
+}
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    margin-bottom: 6rem;
+}
+
+.contact .row .image {
+    flex: 1 1 40rem;
+}
+
+.contact .row .image img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form {
+    flex: 1 1 30rem;
+    padding: 2rem 4rem;
+}
+
+.contact .row form .formControl {
+    padding: 1rem 0;
+    position: relative;
+}
+
+.contact .row form .formControl h3 {
+    color: var(--primary-color);
+    padding: .5rem 0;
+    font-size: 2rem;
+}
+
+.contact .row form .formControl input,
+.contact .row form .formControl textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: inherit;
+    border: .2rem solid rgba(0, 0, 0, .1);
+}
+
+.contact .row form .formControl textarea {
+    resize: none;
+    height: 15rem;
+}
+
+.formControl i {
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    visibility: hidden;
+    font-size: 16px;
+}
+
+.formControl small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+button.btn-form {
+    background-color: var(--orange) !important;
+    width: 100% !important;
+    border: 2px solid var(--orange) !important;
+    color: var(--white) !important;
+    padding: 1rem;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.formControl.pass input {
+    border-color: var(--primary-color) !important;
+}
+
+.formControl.fail input {
+    border-color: var(--error) !important;
+}
+
+.formControl.pass i.fa-check-circle {
+    visibility: visible;
+    color: var(--primary-color) !important;
+}
+
+.formControl.fail i.fa-exclamation-circle {
+    visibility: visible;
+    color: var(--error) !important;
+}
+
+.formControl.fail small {
+    visibility: visible;
+    color: var(--error) !important;
+}

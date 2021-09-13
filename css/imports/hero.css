@@ -1,0 +1,54 @@
+/* other styling */
+
+.hero-layout {
+    height: 100vh;
+}
+
+.hero-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-img-fix {
+    background-attachment: fixed;
+}
+
+
+/* hero text */
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 7rem;
+    color: var(--primary-color);
+}
+
+.hero-text button {
+    padding: 1rem 5rem;
+    outline: none;
+    border: none;
+    background-color: var(--orange);
+    border: .125rem solid var(--primary-color);
+    border-radius: 2rem;
+    color: var(--primary-color);
+    margin: 3rem 0;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .5s ease-in-out;
+}
+
+.hero-text button:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    cursor: pointer;
+}

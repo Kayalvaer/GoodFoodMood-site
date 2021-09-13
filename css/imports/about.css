@@ -1,0 +1,42 @@
+.layoutWidth {
+    width: 100%;
+}
+
+#about img {
+    border-radius: 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.about-text {
+    /* background-color: var(--white); */
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    transform: translate(-8rem);
+    padding: .5rem 2rem .5rem 4rem;
+    /* Clip box regards to https://lab.iamrohit.in/eg/?s=Q2hhdCBCb3gkJCReXl5odHRwczovL2NvZGVwZW4uaW8vRGVtb25fZmFsbC9wZW4vb0JMTE9P */
+    -webkit-clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 12px 70%);
+    background-color: var(--clip-color);
+    color: var(--white);
+    clip-path: polygon(15px 0, 100% 0, 100% 100%, 0 100%, 15px 90%);
+    box-sizing: border-box;
+    width: calc(100% - 13px);
+    /* margin-left: -9px; */
+}
+
+.about-text.start {
+    transform: translateX(-10rem) !important;
+}
+
+.about-text h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: var(--grey);
+}
+
+.about-color {
+    color: var(--orange);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
